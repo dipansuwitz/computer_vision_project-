@@ -1,1 +1,77 @@
-
+{
+    "input": "data/sample_scene.png",
+    "image_size": {
+        "width": 800,
+        "height": 500
+    },
+    "parameters": {
+        "canny_low": 50,
+        "canny_high": 150,
+        "hough_threshold": 80
+    },
+    "detected_lines": 17,
+    "detected_corners": 80,
+    "detected_contours": 6,
+    "objects": [
+        {
+            "area": 15414.0,
+            "perimeter": 463.93,
+            "bounding_box": [
+                180,
+                330,
+                141,
+                141
+            ]
+        },
+        {
+            "area": 2580.0,
+            "perimeter": 650.16,
+            "bounding_box": [
+                426,
+                326,
+                279,
+                109
+            ]
+        },
+        {
+            "area": 7522.5,
+            "perimeter": 386.32,
+            "bounding_box": [
+                488,
+                274,
+                155,
+                92
+            ]
+        },
+        {
+            "area": 114.0,
+            "perimeter": 863.69,
+            "bounding_box": [
+                477,
+                267,
+                177,
+                106
+            ]
+        },
+        {
+            "area": 39610.0,
+            "perimeter": 841.66,
+            "bounding_box": [
+                419,
+                99,
+                282,
+                142
+            ]
+        },
+        {
+            "area": 48830.0,
+            "perimeter": 881.66,
+            "bounding_box": [
+                79,
+                79,
+                222,
+                222
+            ]
+        }
+    ]
+}
